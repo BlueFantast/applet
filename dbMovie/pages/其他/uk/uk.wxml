@@ -1,0 +1,17 @@
+<view class='body'>
+    <view class='flex-row'>
+        <view bindtap='c' class='{{flagc}}'>C</view>
+        <view bindtap='d' class='{{flagd}}'>D</view>
+        <view bindtap='e' class='{{flage}}'>E</view>
+        <view bindtap='f' class='{{flagf}}'>F</view>
+        <view bindtap='g' class='{{flagg}}'>G</view>
+        <view bindtap='a' class='{{flaga}}'>A</view>
+        <view bindtap='b' class='{{flagb}}'>B</view>
+    </view>
+    <view>
+        <image mode='aspectFit' src='{{src}}'></image>
+    </view>
+</view>
+<view class='foot'>
+    <text>制作人:XXX</text>
+</view>

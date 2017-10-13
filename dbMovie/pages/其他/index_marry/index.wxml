@@ -1,0 +1,25 @@
+<view class="page">
+    <view class='body'>
+        <text>财产标的的金额(单位元):</text>
+        <form bindsubmit='formSubmit' bindreset='formReset'>
+          <view class='input'>
+            <input name="input" placeholder='标的的金额' type='number'></input>
+          </view>
+          <text>\n</text>
+          <view>
+            <button formType="submit" type='primary'>计算</button>
+            <text>\n</text>
+            <button formType="reset">重置</button>
+          </view>
+        </form>
+  </view>
+
+  <view class='body'>
+    <text>\n诉讼费{{fei}}元,减半收取为{{fei2}}元</text>
+  </view>
+
+  <view class='foot'>
+    <text>\n制作人:XXX</text>
+  </view>
+
+</view>

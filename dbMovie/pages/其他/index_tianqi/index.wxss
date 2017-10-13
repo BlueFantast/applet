@@ -1,0 +1,55 @@
+.page{
+  margin: 0 0 50rpx 50rpx;
+}
+
+.top{
+  display: flex;
+  flex-direction: row;
+}
+
+.input{
+  width: 80%;
+  background-color: gainsboro;
+}
+
+.icon{
+  width: 10%;
+}
+
+.body{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.city{
+  font-size: 100rpx;
+}
+
+.date{
+  font-size: 70rpx;
+}
+
+.img{
+  margin: 20rpx 0;
+}
+
+.foot{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.left{
+  font-size: 40rpx;
+  width: 50%;
+}
+
+.right{
+  display: flex;
+  flex-direction: column;
+  font-size: 40rpx;
+}
+
+

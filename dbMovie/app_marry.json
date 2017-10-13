@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/marry/marry"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "诉讼费",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar":{
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"财产",
+      "iconPath":"pages/images/x2.png",
+      "selectedIconPath":"pages/images/x1.png"
+    },{
+      "pagePath": "pages/marry/marry",
+      "text": "离婚",
+      "iconPath": "pages/images/y2.png",
+      "selectedIconPath": "pages/images/y1.png"
+    }]
+  }
+}

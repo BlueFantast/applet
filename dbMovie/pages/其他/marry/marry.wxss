@@ -1,0 +1,20 @@
+.page1{
+  margin: 40rpx 40rpx 0 40rpx;
+  font-size: 47rpx;
+}
+
+.body1{
+  font-size: 45rpx;
+  background-color: mintcream;
+}
+
+.input1 {
+  font-size: 43rpx;
+  background-color: lightgray;
+}
+
+.foot1{
+  font-size: 38rpx;
+  position: relative;
+  left: 25%;
+}
